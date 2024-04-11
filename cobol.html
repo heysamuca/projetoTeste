@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cobol.css">
+</head>
+<body>
+    <div class="conteiner">
+        <main>
+            <div class="cobol" >
+                <h1> O´que é a linguagem COBOL?</h1>
+            </div>
+            <section class="conteiner1" >
+                <img class="foto" src="./img/img1.jpg"img> 
+                <P>
+                    Atualmente existe uma infinidade de linguagens de programação no mercado, mas nada tão resistente ao tempo e aos avanços tecnológicos como o COBOL. Esse nome na realidade é uma sigla, COmmon Business Oriented Language (Linguagem Orientada a Negócios). Foi criada no ano de 1959, durante uma conferência, entre o governo americano e algumas empresas de tecnologia de ponta, para a época.
+
+A necessidade de ter um maior controle dos negócios, fez com que o comitê formado por IBM, RCA e Sylvania Eletric Products, implementassem até o final de 1959, a linguagem COBOL. Baseada em duas outras linguagens não tão conhecidas, FLOW-MATIC e COMTRAN, foi versionada em COBOL 60, 61, 85 e COBOL2002 que foi remodelada usando tecnologia de orientação a objeto.
+
+Recentemente, surgiu uma versão multiplataforma, Visual COBOL R3. Com essa portabilidade, programar em linguagem COBOL passou ser tarefa realizável em plataformas Windows, .NET, UNIX, Linux, JVM e em Cloud. Facilitou em muito o trabalho dos programadores voltados a área corporativa, dando maior flexibilidade na criação e manutenção de sistemas Mainframes.
+
+Especificando a questão do uso do COBOL em uma JVM, temos plugins no mercado que nos dá a possibilidade de programar nessa linguagem, integrado ao ambiente JAVA. Existem algumas empresas que trabalham especificamente nesse ambiente. Em uma pesquisa recente, localizei a Metrixware, empresa francesa dedicada a negócios no setor bancário e de seguros. Criada em 1995, se localiza na França, especificamente em Paris. Possui toda uma estrutura para atender tem necessidade do uso de mainframe, oferecendo serviços de plugins integrados ao Eclipse, denominado COBOS.
+
+Na América do Sul, a Metrixware ainda não possui nenhum trabalho realizado com seu produto. Portanto, a FATEC Zona Leste, será pioneira na implantação e utilização do COBOS, o que tornaria a faculdade um ícone, quanto ao aprendizado em um sistema Mainframe. Esse pacote de plugins dá ao usuário/programador familiarizado com a IDE do Eclipse, a possibilidade de desenvolvimento de programas dedicados a Mainframe z/Unix. O COBOS oferece a vantagem, também de possibilitar a utilização de codificação COBOL, em todos as versões. O compilador utiliza o chek-syntax que é baseado no open-cobol e aproxima-se de Cobol-It um multitarget ( Mainframe IBM, Bull, Unix e também Windows).
+                </P>
+            </section>
+              <section>
+                <p>
+                    Figura 1: Um programa COBOL no Eclipse, onde se lê um código em SQL.
+
+Além do COBOL, a de se comentar a respeito das linguagens específicas de Mainframe, JCL (Jog Control Language) e REXX (REstructured eXtended eXecutor). São linguagens de script que instrui sistemas operacionais de mainframe da IBM. A linguagem REXX é uma linguagem de alto nível estruturada e interpretada. REXX é amplamente utilizado como linguagem macro, e é frequentemente usada para o processamento de dados e de texto e gerar relatórios. Quanto a linguagem JCL é uma linguagem de script utilizado em sistemas operacionais de Mainframe da IBM para instruir o sistema sobre como executar um trabalho em lotes ou iniciar um subsistema. Pode-se ver alguns exemplos de códigos neste link: http://en.wikipedia.org/wiki/REXX#Conditionals.
+
+Aqui um exemplo: na Listagem 1 temos um laço em JCL, onde o a palavra stem trabalha como se fosse um vetor, isto por que REXX não tem nenhum suporte direto para arrays de variáveis abordadas por um índice numérico.
+
+                </p>
+            </section>
+            <section>
+                <p>
+                    Listagem 1: Exemplo de código em COBOL
+                </p>
+            </section>
+            <section>
+                <p>
+                    do i = 1 to 10 <br>
+                    stem.i = 10 - i <br>
+                    end
+                </p>
+            </section>
+            <footer>
+                <a>
+                  <img class="foto" src="./img/img2.jpg"img> 
+                </a>
+              </footer>
+              <section>
+                <p>
+                    Figura 2: Trecho programa em JCL.
+
+                    Há dois JCLs IBM: uma para o Sistema Operacional DOS/360 e cujo mais recente membro é z / VSE, e outro para o Sistema Operacional OS/360 do membro z / OS. Eles compartilham algumas regras de sintaxe básicas e alguns conceitos básicos. Uma linguagem não muito fácil de ser lida, requer como boa prática, muitos comentários, pelo que se nota marcados pelos asteriscos.
+                    
+                    Interessante saber que o COBOL apesar de uma linguagem antiga, é amplamente utilizada. E hoje, principalmente no Brasil, há uma escassez de profissionais na área. Portanto, ter como treinar a linguagem torna-se fundamental para a formação.
+                    
+                    Consultas efetuadas: A Empresa Metrixware. Colaboradores, Sr. Alexis Duchêne (Depto de Markenting) e ao Sr. Michael Muller (Depto Vendas Internacional).
+                </p>
+            </section>
+            <section>
+                <p>
+                    • <a href="https://en.wikipedia.org/wiki/Rexx"> http://en.wikipedia.org/wiki/REXX </a> <br>
+                    • <a href="https://en.wikipedia.org/wiki/Job_Control_Language#Features_common_to_DOS_and_OS_JCL"> Features Common to DOS and OS JCL</a><br>
+                    • <a href="https://www.metrixware.com/en/products/cobos/">http://metrixware.com/cobos-ide-mainframe-opensource/</a>
+                </p>
+        </main>
+    </div>
+</body>
+</html>

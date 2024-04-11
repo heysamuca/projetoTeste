@@ -1,0 +1,87 @@
+body{
+    color: rgb(255, 255, 255);
+    background-color: rgb(2, 0, 20);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.conteiner{
+    padding: 0px 100px;
+    
+}
+p{
+    font-size: 17px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    margin-right: 230px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+ 
+nav a:hover {
+    color: rgb(218, 114, 114);
+}
+.center{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+footer{
+    display: flex;
+    justify-content: center;
+        
+}
+.minha{
+    width: 350px;
+    font-size: 29px;
+    margin: 0 auto;
+}
+img{
+    width: 250px;
+    height: 300px;
+    right: 150px;
+}
+.conteiner2 img{
+    float: left;
+    margin-right: 25px;
+    
+}
+
+.conteiner1 img{
+    float: right;
+    margin-right: 25px;
+
+    
+}
+.img1{
+    width: 250px;
+    height: 250;
+
+}
+.insta{
+    width: 40px;
+    height: 40px;
+    border-radius: 150px; 
+}
+
+
+.youtube{
+    width: 40px;
+    height: 40px;
+}
+
+.conteiner5{
+    float: left;
+    margin-right: 30px;
+    display: inline-block
+}
+
+
